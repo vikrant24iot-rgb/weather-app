@@ -1,0 +1,79 @@
+.grid{
+  margin-top: 100px;
+  position: absolute;
+  
+  
+  
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 53px;
+  
+}
+
+.tower1{
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-right: 60px;
+  z-index: 100;
+  
+ 
+  
+}
+
+  
+  
+.items{
+  z-index: 0;
+}
+  
+
+.box1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+  
+}
+
+.weather-title{
+    top:-50px;
+    
+}
+
+.vid{
+    position:absolute;
+    z-index: 0;
+  
+}
+
+.vidhan-soudha{
+    margin-left: 1300px;
+    width: 900px;
+}
+.weather-icon{
+  height: 100px;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    
+}
+.todayw{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.bg{
+    z-index: 0;
+    height: 3600px;
+    width: fit-content;
+}
